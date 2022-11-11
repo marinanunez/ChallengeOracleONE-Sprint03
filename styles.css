@@ -144,7 +144,7 @@ body{
     position: relative;
     font-size: 2.2em;
     font-weight: 800;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .section-title span{
     color:#235bf6;
@@ -187,8 +187,13 @@ body{
     background: #235bf6;
 }
 .container-skills{
-    background: #eee;
+    background: #02033a;
+    min-height: 100vh;
 }
+.container-skills .title .section-title{
+    color: white;
+}
+
 .container-skills .skills .list-skills{
     display: flex;
     flex-wrap: wrap;
@@ -199,37 +204,20 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 10%;
-    height: 100px;
+    width: 25%;
+    height: 120px;
     background-color: #fff;
     margin: 3%;
     transition: .3s;
-    box-shadow: 2px 2px 2px #9e9e9e;
+    box-shadow: 2px 2px 2px black;
     position: relative;
     font-weight: bold;
 }
-.container-hobbies{
-    background: #eee;
+.container-skills .skills .list-skills .skills-content img{
+    margin-top: 20px;
 }
-.container-hobbies .hobbies .list-hobbies{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;   
-}
-
-.container-hobbies .hobbies .list-hobbies .hobbies-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 13%;
-    height: 100px;
-    background-color: #fff;
-    margin: 3%;
-    transition: .3s;
-    box-shadow: 2px 2px 2px #9e9e9e;
-    position: relative;    
-    font-weight: bold;
+.container-skills .skills .list-skills .skills-content:hover{
+    transform: scale(1.2);
 }
 
 .container-academic .content-academic{
@@ -275,9 +263,11 @@ body{
 }
 
 .container-work{
-    background: #eee;
+    background: #02033a;
 }
-
+.container-work .title .section-title{
+    color: white;
+}
 .container-work .work{
     display: flex;
     justify-content: center;
@@ -289,7 +279,7 @@ body{
 .container-work .work .card{
     width: 400px;
     margin: 15px;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
     border-radius: 10px;
 }
 .container-work .work .card .card-img{
@@ -498,14 +488,4 @@ body{
         margin: 4%;
     }
 
-    .container-hobbies .hobbies .list-hobbies{
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .container-hobbies .hobbies .list-hobbies .hobbies-content{
-        width: 50%;
-        margin: 4%;
-    }
 }
