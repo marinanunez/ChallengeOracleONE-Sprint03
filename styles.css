@@ -19,7 +19,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url(./img/pexels-uzunov-rostislav-5011647.jpg) no-repeat;
+    background: url(./img/adrian-regeci-B9UKyWJ5l6k-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -160,6 +160,8 @@ body{
     position: relative;
     width: 40%;
     padding: 20px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
 }
 
 .about-me .text{
@@ -279,8 +281,9 @@ body{
 .container-work .work .card{
     width: 400px;
     margin: 15px;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    box-shadow: 2px 2px 2px black;
     border-radius: 10px;
+    transition: .3s;
 }
 .container-work .work .card .card-img{
     position: relative;
@@ -312,6 +315,19 @@ body{
 .container-work .work .card .info h3{
     font-size: 1.2em;
     margin: 10px;
+}
+.container-work .work .card .info .btn-view{
+    color: #fff;
+    background: #3a6cf4;
+    font-size: 1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin-bottom: 10px;
 }
 
 .container-contact{
