@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-proyect .title {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #3a6cf4;
+}
+.container-proyect .title h1{
+    color: #3a6cf4;
+    font-size: 1.8em;
+}
+.container-proyect .title span{
+    color: #000016;
+}
+.container-proyect .card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-proyect .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-proyect .info h3{
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 10px;
+    letter-spacing: .1em;
+    color:#3a6cf4;
+}
+.container-proyect .info .text{
+    font-size: 1em;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    letter-spacing: .1em;
+}
+.container-proyect .info .list-skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;  
+}
+.container-proyect .info .list-skills .skills-proyect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: .7em;
+}
+
+.footer{
+    background: #000016;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+.footer .footer-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer p{
+    font-size: 16px;
+    margin-top: 10px;
+}

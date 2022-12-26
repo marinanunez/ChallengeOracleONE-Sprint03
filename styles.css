@@ -310,6 +310,7 @@ body{
 
 .container-work .work .card .info{
     text-align: center;
+    background: #ffff; 
 }
 
 .container-work .work .card .info h3{
