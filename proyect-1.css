@@ -33,6 +33,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: #000020;
+    color: #fff;
 }
 .container-proyect .info h3{
     font-size: 1.4em;
@@ -47,6 +49,7 @@
     padding: 20px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
     letter-spacing: .1em;
 }
 .container-proyect .info .list-skills{
@@ -62,7 +65,15 @@
     margin: 10px;
     font-size: .7em;
 }
+.info .repo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.info .repo i{
+    color: #000016;
+}
 .footer{
     background: #000016;
     color: #fff;
