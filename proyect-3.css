@@ -11,21 +11,6 @@ body{
     min-height: 100vh;
 }
 
-.carousel-control-prev-icon{
-    background: transparent;
-}
-.carousel-control-next-icon{
-    background: transparent;
-}
-
-.carousel-item{
-    height: 80vh;
-}
-.carousel-item img{
-    height: 700px;
-    width: 400px;
-}
-
 .container-proyect .title {
     width: 100%;
     margin-bottom: 30px;
@@ -38,7 +23,7 @@ body{
 .container-proyect .title h1{
     color: #fff;
     margin-top: 50px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .container-proyect .info{
@@ -57,7 +42,7 @@ body{
     color:#3a6cf4;
 }
 .container-proyect .info .text{
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: justify;
     padding: 20px;
     margin-left: 100px;
@@ -77,6 +62,10 @@ body{
     justify-content: space-between;
     margin: 10px;
     font-size: .7em;
+}
+.skills-proyect img{
+    width: 50px;
+    height: 40px;
 }
 .info .repo{
     display: flex;

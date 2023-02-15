@@ -15,11 +15,15 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" crossorigin="anonymous">
     <!--End Boostrap-->
     <link rel="shortcut icon" href="./logo/MN2.ico">
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--End AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
 <body>
-    <header>
+    <header data-aos="fade-right" data-aos-duration="1000"  data-aos-easing="ease-in-sine">
         <a href="#" class="brand"> Marina Nuñez </a>
         <div class="menu-btn"></div>
         <div class="navigation">
@@ -32,7 +36,7 @@
     </header>
 
     <section class="main">
-        <div class="content">
+        <div class="content" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-sine">
             <h2>Bienvenidos, mi nombre es <br><span>Marina</span></h2>
             <div class="animated-text">
                 <h3>Desarrollo Web</h3>
@@ -46,13 +50,13 @@
         </div>
     </section>
 
-    <section class="container-about-me" id="about">
+    <section class="container-about-me" id="about" >
         <div class="title">
-            <h2 class="section-title">Sobre <span>mí</span></h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500" >Sobre <span>mí</span></h2>
         </div>
         <div class="about-me">
-            <img class="profile" src="./img/cam.jpg" alt="foto-perfil"">
-            <p class=" text">
+            <img class="profile" src="./img/cam.jpg" alt="foto-perfil" data-aos="fade-right" data-aos-duration="1500">
+            <p class=" text" data-aos="fade-left" data-aos-duration="1500">
             Soy una desarrolladora de Software de Argentina, radicada en Córdoba capital.
             <br><br>
             Comencé mis estudios formales en programación el año 2019. Al día de la fecha
@@ -65,16 +69,16 @@
             <br><br>
             Apasionada con el trabajo que realizo intento aportar un poco a la gran comunidad TI.
             <br><br>
-            <a class="btn" href="./img/CV-MarinaNuñez.pdf"> Descargar CV</a>
+            <a class="btn" href="./img/CV-MarinaNuñez.pdf" data-aos="zoom-in" data-aos-duration="1500"> Descargar CV</a>
             </p>
         </div>
     </section>
     <section class="container-skills" id="skills">
         <div class="title">
-            <h2 class="section-title">Sk<span>i</span>lls</h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500">Sk<span>i</span>lls</h2>
         </div>
         <div class="skills">
-            <ul class="list-skills">
+            <ul class="list-skills" data-aos="zoom-out" data-aos-duration="2000">
                 <li class="skills-content"><img src="./icons/icons8-html-5-50.png" alt="html">HTML</li>
                 <li class="skills-content"><img src="./icons/icons8-css3-50.png" alt="css">CSS</li>
                 <li class="skills-content"><img src="./icons/icons8-js-50.png" alt="js">JS</li>
@@ -86,9 +90,9 @@
     </section>
     <section class="container-academic" id="study">
         <div class="title">
-            <h2 class="section-title"><span>Formación</span> académica</h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500"><span>Formación</span> académica</h2>
         </div>
-        <div class="content-academic">
+        <div class="content-academic" data-aos="fade-up" data-aos-duration="3000">
             <div class="card">
                 <div class="academic-img">
                     <img src="./img/oracle.png" alt="Oracle Next Education">
@@ -120,9 +124,9 @@
     </section>
     <section class="container-work" id="work">
         <div class="title">
-            <h2 class="section-title">Pro<span>yec</span>tos</h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500">Pro<span>yec</span>tos</h2>
         </div>
-        <div class="work">
+        <div class="work" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <div class="card">
                 <div class="card-img">
                     <img src="./img/work-1.jpg" alt="encriptador">
@@ -152,7 +156,7 @@
                 <div class="info">
                     <h3>VC FrameBuffer en QEMU emulando una RPi3</h3>
                     <p>Laboratorio realizado en lenguaje ensamblador ARMv8, que genera una imagen de Mario Bros.</p>
-                    <a class="btn-view" href="#">Ver proyecto</a>
+                    <a class="btn-view" href="./proyect-3.html">Ver proyecto</a>
                 </div>
             </div>
             <div class="card">
@@ -171,7 +175,7 @@
     </section>
     <section class="container-contact" id="contact">
         <div class="title">
-            <h2 class="section-title"><span>Contacto</span></h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500"><span>Contacto</span></h2>
         </div>
         <div class="contact">
             <form action="https://formspree.io/f/mvoynjwp" method="POST"">
@@ -196,6 +200,10 @@
         <p>Copyright &copy 2022</p>
     </section>
     <script src="script.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

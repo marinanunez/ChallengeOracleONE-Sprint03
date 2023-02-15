@@ -1,13 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background: #000020;
 }
+body{
+    min-height: 100vh;
+}
+
+.carousel-control-prev-icon{
+    background: transparent;
+}
+.carousel-control-next-icon{
+    background: transparent;
+}
+
+.carousel-item{
+    height: 80vh;
+}
+.carousel-item img{
+    height: 860px;
+    width: 400px;
+}
+
 .container-proyect .title {
     width: 100%;
-    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,17 +34,9 @@
     color: #3a6cf4;
 }
 .container-proyect .title h1{
-    color: #3a6cf4;
-    font-size: 1.8em;
-}
-.container-proyect .title span{
-    color: #000016;
-}
-.container-proyect .card-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 3em;
 }
 
 .container-proyect .info{
@@ -34,17 +45,17 @@
     align-items: center;
     flex-direction: column;
     background: #000020;
-    color: #fff;
+    color:rgba(255, 255, 255, 0.801);
 }
 .container-proyect .info h3{
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: 500;
     padding: 10px;
     letter-spacing: .1em;
     color:#3a6cf4;
 }
 .container-proyect .info .text{
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: justify;
     padding: 20px;
     margin-left: 100px;
@@ -69,10 +80,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
-
 .info .repo i{
-    color: #000016;
+    color: #fff;
 }
 .footer{
     background: #000016;
@@ -89,4 +100,5 @@
 .footer p{
     font-size: 16px;
     margin-top: 10px;
+    background: #000016;
 }

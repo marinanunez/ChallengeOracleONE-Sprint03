@@ -19,3 +19,4 @@ navigationItems.forEach((navigationItem)=> {
         navigation.classList.remove("active");
     });
 });
+
