@@ -11,22 +11,7 @@ body{
     min-height: 100vh;
 }
 
-.carousel-control-prev-icon{
-    background: transparent;
-}
-.carousel-control-next-icon{
-    background: transparent;
-}
-
-.carousel-item{
-    height: 80vh;
-}
-.carousel-item img{
-    height: 700px;
-    width: 400px;
-}
-
-.container-proyect .title {
+.container-project .title {
     width: 100%;
     margin-bottom: 30px;
     display: flex;
@@ -35,13 +20,13 @@ body{
     flex-direction: column;
     color: #3a6cf4;
 }
-.container-proyect .title h1{
+.container-project .title h1{
     color: #fff;
     margin-top: 50px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
-.container-proyect .info{
+.container-project .info{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,15 +34,15 @@ body{
     background: #000020;
     color:rgba(255, 255, 255, 0.801);
 }
-.container-proyect .info h3{
+.container-project .info h3{
     font-size: 1.5em;
     font-weight: 500;
     padding: 10px;
     letter-spacing: .1em;
     color:#3a6cf4;
 }
-.container-proyect .info .text{
-    font-size: 1.2em;
+.container-project .info .text{
+    font-size: 1em;
     text-align: justify;
     padding: 20px;
     margin-left: 100px;
@@ -65,18 +50,22 @@ body{
     margin-bottom: 50px;
     letter-spacing: .1em;
 }
-.container-proyect .info .list-skills{
+.container-project .info .list-skills{
     display: flex;
     flex-wrap: wrap;
     margin: 20px;  
 }
-.container-proyect .info .list-skills .skills-proyect{
+.container-project .info .list-skills .skills-project{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin: 10px;
     font-size: .7em;
+}
+.skills-project img{
+    width: 50px;
+    height: 40px;
 }
 .info .repo{
     display: flex;

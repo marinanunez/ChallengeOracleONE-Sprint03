@@ -24,7 +24,7 @@ body{
     width: 400px;
 }
 
-.container-proyect .title {
+.container-project .title {
     width: 100%;
     margin-bottom: 30px;
     display: flex;
@@ -33,13 +33,13 @@ body{
     flex-direction: column;
     color: #3a6cf4;
 }
-.container-proyect .title h1{
+.container-project .title h1{
     color: #fff;
     margin-top: 50px;
     font-size: 3em;
 }
 
-.container-proyect .info{
+.container-project .info{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,14 +47,14 @@ body{
     background: #000020;
     color:rgba(255, 255, 255, 0.801);
 }
-.container-proyect .info h3{
+.container-project .info h3{
     font-size: 1.5em;
     font-weight: 500;
     padding: 10px;
     letter-spacing: .1em;
     color:#3a6cf4;
 }
-.container-proyect .info .text{
+.container-project .info .text{
     font-size: 1.2em;
     text-align: justify;
     padding: 20px;
@@ -63,12 +63,12 @@ body{
     margin-bottom: 50px;
     letter-spacing: .1em;
 }
-.container-proyect .info .list-skills{
+.container-project .info .list-skills{
     display: flex;
     flex-wrap: wrap;
     margin: 20px;  
 }
-.container-proyect .info .list-skills .skills-proyect{
+.container-project .info .list-skills .skills-project{
     display: flex;
     flex-direction: column;
     align-items: center;
