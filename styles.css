@@ -19,7 +19,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url(./img/adrian-regeci-B9UKyWJ5l6k-unsplash.jpg) no-repeat;
+    background: url(./img/banner2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -47,15 +47,15 @@ section{
 }
 
 .animated-text h3{
-    color: #4e9eff;
-    font-size: 3em;
+    color: purple;
+    font-size: 2em;
     font-weight: 700;
     line-height: 70px;
     letter-spacing: 1px;
 }
 
 .animated-text h3:nth-child(1){
-    animation: text-move 10s infinite;
+    animation: text-move 15s infinite;
 }
 
 @keyframes text-move {
@@ -99,7 +99,7 @@ header{
     transition: 0.5s ease;
 }
 header.sticky{
-    background: #3a6cf4;
+    background: purple;
     padding: 10px 30px;/*cambie 200px por 30px*/
 }
 header .brand{
@@ -124,10 +124,10 @@ header .navigation a{
 }
 
 header .navigation a:hover{
-    color: #3a6cf4;
+    color: purple;
 } 
 header .sticky .navigation a:hover{
-    color: #000;
+    color: purple;
 }
 body{
     min-height: 110vh;
@@ -147,7 +147,7 @@ body{
     margin-bottom: 40px;
 }
 .section-title span{
-    color:#235bf6;
+    color:purple;
 }
 .about-me{
     position: relative;
@@ -174,7 +174,7 @@ body{
 
 .about-me .text .btn{
     color: #fff;
-    background: #3a6cf4;
+    background: purple;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
@@ -186,10 +186,10 @@ body{
     transition: 0.5s ease;
 }
 .about-me .text .btn:hover{
-    background: #235bf6;
+    background: purple;
 }
 .container-skills{
-    background: #02033a;
+    background:  #4a235a ;
     min-height: 100vh;
 }
 .container-skills .title .section-title{
@@ -258,14 +258,14 @@ body{
 }
 
 .container-academic .content-academic .card .info h3{
-    color: #235bf6;
+    color: purple;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
 }
 
 .container-work{
-    background: #02033a;
+    background:  #4a235a ;
 }
 .container-work .title .section-title{
     color: white;
@@ -319,7 +319,7 @@ body{
 }
 .container-work .work .card .info .btn-view{
     color: #fff;
-    background: #3a6cf4;
+    background: purple;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
@@ -376,7 +376,7 @@ body{
 
 .contact .input-box .send-btn{
     color: #fff;
-    background: #3a6cf4;
+    background: purple;
     display: inline-block;
     font-size: 1.1em;
     font-weight: 500;
@@ -389,7 +389,7 @@ body{
 }
 
 .contact .input-box .send-btn:hover{
-    background: #235bf6;
+    background: purple;
 }
 
 .footer{
@@ -443,7 +443,7 @@ body{
         border-radius: 20px;
     }
     header .navigation a:hover{
-        background: #3a6cf4;
+        background: purple;
         color: #fff;
         transition: 0.3s ease;
     }

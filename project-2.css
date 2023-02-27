@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background: #000020;
+    background:  #370539 ;
 }
 
 body{
@@ -22,7 +22,7 @@ body{
     height: 80vh;
 }
 .carousel-item img{
-    height: 700px;
+    height: 800px;
     width: 400px;
 }
 
@@ -33,7 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #3a6cf4;
+    color: purple;
 }
 .container-project .title h1{
     color: #fff;
@@ -46,7 +46,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #000020;
+    background:  #370539 ;
     color:rgba(255, 255, 255, 0.801);
 }
 .container-project .info h3{
@@ -54,7 +54,7 @@ body{
     font-weight: 500;
     padding: 10px;
     letter-spacing: .1em;
-    color:#3a6cf4;
+    color:purple;
 }
 .container-project .info .text{
     font-size: 1.2em;
@@ -88,7 +88,7 @@ body{
     color: #fff;
 }
 .footer{
-    background: #000016;
+    background: #370539;
     color: #fff;
     text-align: center;
     padding: 2em;
@@ -102,5 +102,5 @@ body{
 .footer p{
     font-size: 16px;
     margin-top: 10px;
-    background: #000016;
+    background: #370539;
 }
